@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+        anadea:
+                container_name: anadea
+                image: anadea:cpu
+                restart: always
+                ipc: host
+                userns_mode: "host"
+                build:
+                        context: .
+                        dockerfile: docker_build/CPU/Dockerfile
+                volumes:
+                        - $PWD:/app
+                ports:
+                        - "8501:8501"
