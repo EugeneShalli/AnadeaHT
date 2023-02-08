@@ -12,7 +12,7 @@
 ### Important Papers to (re)visit
 
 ### General
-- [x] Read the original paper
+- [x] [Read the original paper](LIVECell paper with notes.pdf)
 
 ### Data
 
