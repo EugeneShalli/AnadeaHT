@@ -1,6 +1,11 @@
 # Anadea Home Task - LIVECell Instance Segmentation
 ![](img.png)
 
+# You can try the model here
+http://34.147.16.61:8501/
+<img width="1785" alt="image" src="https://user-images.githubusercontent.com/37483264/217659749-09b1c05e-061e-45d4-bd37-5c3dd46c9ad6.png">
+
+
 ## Installation
 > docker-compose -f docker-compose-cpu.yml up
 >
