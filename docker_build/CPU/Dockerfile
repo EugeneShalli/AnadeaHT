@@ -12,7 +12,7 @@ RUN apt-get update --fix-missing
 #RUN apt-get install ffmpeg opus libvpx pkg-config
 #RUN apt-get install poppler-utils -y
 RUN apt-get install ffmpeg libsm6 libxext6  -y
-COPY ../requirements.txt /app/.
+COPY ./requirements.txt /app/.
 RUN pip install -r requirements.txt --ignore-installed
 
 CMD streamlit run app.py --server.port=8501 --server.address=0.0.0.0
