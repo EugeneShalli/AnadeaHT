@@ -14,5 +14,6 @@ RUN apt-get update --fix-missing
 RUN apt-get install ffmpeg libsm6 libxext6  -y
 COPY ./requirements.txt /app/.
 RUN pip install -r requirements.txt --ignore-installed
+RUN pip install dxfwrite streamlit==1.10.0 opencv-python pydeck Django==3.2.14 streamlit-option-menu==0.3.2
 
 CMD streamlit run app.py --server.port=8501 --server.address=0.0.0.0
