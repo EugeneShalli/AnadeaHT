@@ -16,4 +16,4 @@ COPY ./requirements.txt /app/.
 RUN pip install -r requirements.txt --ignore-installed
 RUN pip install streamlit==1.10.0 streamlit-option-menu==0.3.2
 
-CMD streamlit run app.py --server.port=8501 --server.address=0.0.0.0
+CMD streamlit run app.py
