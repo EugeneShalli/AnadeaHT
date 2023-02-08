@@ -12,13 +12,13 @@
 ### Important Papers to (re)visit
 
 ### General
-[x] - Read the original paper
+- [x] Read the original paper
 
 ### Data
 
 ### Development
-[] - Develop streamlit application
-[] - Deploy streamlit application to 
+- [] Develop streamlit application
+- [] Deploy streamlit application to 
 
 ### Model Design
 
