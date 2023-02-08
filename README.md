@@ -1,6 +1,11 @@
 # Anadea Home Task - LIVECell Instance Segmentation
 ![](img.png)
 
+## Installation
+> docker-compose -f docker-compose-cpu.yml up
+>
+> docker-compose -f docker-compose-cpu.yml start
+
 ## Sources
 [LIVECell Dataset Page](https://sartorius-research.github.io/LIVECell/)
 
