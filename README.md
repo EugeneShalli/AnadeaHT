@@ -12,8 +12,7 @@
 ### Important Papers to (re)visit
 
 ### General
-[Read the original paper](LIVECell paper with notes.pdf)
-- [x] [Read the original paper](LIVECell paper with notes.pdf)
+- [x] Read the original paper ([LIVECell paper with notes.pdf](https://github.com/EugeneShalli/AnadeaHT/blob/main/LIVECell%20paper%20with%20notes.pdf))
 
 ### Data
 
