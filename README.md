@@ -11,12 +11,13 @@
 
 [Original Paper in Nature](https://www.nature.com/articles/s41592-021-01249-6.pdf)
 
-[Metric: mean of the precision values at each IoU threshold](https://www.kaggle.com/competitions/sartorius-cell-instance-segmentation/overview/evaluation)
-
 [Metric Implementation](https://www.kaggle.com/code/theoviel/competition-metric-map-iou/notebook)
 
 ## Report
 *This is a log of the progress made in the project*
+
+### Evaluation
+[Metric: mean of the precision values at each IoU threshold](https://www.kaggle.com/competitions/sartorius-cell-instance-segmentation/overview/evaluation)
 
 ### Important Papers to (re)visit
 *Coming sooon*
