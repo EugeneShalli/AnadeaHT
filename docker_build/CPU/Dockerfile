@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.10
 #FROM pytorch/pytorch:1.0.1-cuda10.0-cudnn7-runtime
 
 RUN mkdir /app
