@@ -20,7 +20,8 @@ def app():
 
     img_selected = st.selectbox("You can choose file from the server (it is from TEST set).", options=list_imgs_path)
 
-    uploaded_file = st.file_uploader("Or you can upload your own file", type=['jpg', 'png', 'tif'])
+    uploaded_file = st.file_uploader("Or you can upload your own file. \n NOTE THAT IT WILL BE UPLOADED TO THE SERVER "
+                                     "AND BECOME VISIBLE FOR OTHER USERS!", type=['jpg', 'png', 'tif'])
     path_original = ''
 
     with st.sidebar:
